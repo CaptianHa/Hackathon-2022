@@ -8,6 +8,10 @@
  
         /* Styling the Body element i.e. Color,
         Font, Alignment */
+        h1{
+            text-align: center;
+
+        }
         body {
            /* background-color: cornflowerblue;
             font-family: Verdana;
@@ -65,9 +69,9 @@
  
         /* Styling Button */
         button {
-            background-color: cornflowerblue;
-            border: 1px solid #777;
-            border-radius: 2px;
+            background-color:white;
+            /*border: 1px solid #777;
+            border-radius: 2px;*/
             font-family: inherit;
             margin: auto;
             font-size: 21px;

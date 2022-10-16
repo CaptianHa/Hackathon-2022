@@ -13,11 +13,9 @@
 </head>
   
 <body>
-    
-    <h1>Gonzaga University Program quiz</h1>
-  
     <!-- Create Form -->
     <form id="form">
+        <h1>Gonzaga University Program quiz</h1>
         <!-- Question 1 -->
         <div class="form-control">
             <label for="role" id="q1">
@@ -109,7 +107,7 @@
             <input type="radio" name="q5"  value="selection2">Writing A Book
 
 
-            <button type="button" onclick="displayRadioValue()">radio
+            <button type="button" onclick="displayRadioValue()">Submit
                 <!--<nav><a href="commuincator.html">Submit</a></nav>-->
             </button>
 
@@ -174,7 +172,10 @@
             }
         }
 
-        if(selectionArray[0] == largest)
+        if (largest == 0) {
+            alert("Please Answer At Least One Question");
+        }
+        else if(selectionArray[0] == largest)
         {
             window.location.replace("problem_solving.html");
         }
@@ -188,7 +189,7 @@
         }
         else if(selectionArray[3] == largest)
         {
-            window.location.replace("communicator");
+            window.location.replace("commuincator.html");
         }
         else if(selectionArray[4] == largest)
         {
